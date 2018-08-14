@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2A41253921233AB300A2E0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A41253821233AB300A2E0C4 /* AppDelegate.m */; };
-		2A41253C21233AB300A2E0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A41253B21233AB300A2E0C4 /* ViewController.m */; };
+		2A41253C21233AB300A2E0C4 /* DynamicTableDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A41253B21233AB300A2E0C4 /* DynamicTableDemoViewController.m */; };
 		2A41253F21233AB300A2E0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A41253D21233AB300A2E0C4 /* Main.storyboard */; };
 		2A41254121233AB400A2E0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A41254021233AB400A2E0C4 /* Assets.xcassets */; };
 		2A41254421233AB400A2E0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A41254221233AB400A2E0C4 /* LaunchScreen.storyboard */; };
 		2A41254721233AB400A2E0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A41254621233AB400A2E0C4 /* main.m */; };
+		2A41254F212342F600A2E0C4 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A41254E212342F600A2E0C4 /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A41253421233AB300A2E0C4 /* w3d2-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w3d2-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A41253721233AB300A2E0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A41253821233AB300A2E0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A41253A21233AB300A2E0C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A41253B21233AB300A2E0C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A41253A21233AB300A2E0C4 /* DynamicTableDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicTableDemoViewController.h; sourceTree = "<group>"; };
+		2A41253B21233AB300A2E0C4 /* DynamicTableDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicTableDemoViewController.m; sourceTree = "<group>"; };
 		2A41253E21233AB300A2E0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A41254021233AB400A2E0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A41254321233AB400A2E0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A41254521233AB400A2E0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A41254621233AB400A2E0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A41254D212342F600A2E0C4 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		2A41254E212342F600A2E0C4 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				2A41253721233AB300A2E0C4 /* AppDelegate.h */,
 				2A41253821233AB300A2E0C4 /* AppDelegate.m */,
-				2A41253A21233AB300A2E0C4 /* ViewController.h */,
-				2A41253B21233AB300A2E0C4 /* ViewController.m */,
+				2A41253A21233AB300A2E0C4 /* DynamicTableDemoViewController.h */,
+				2A41253B21233AB300A2E0C4 /* DynamicTableDemoViewController.m */,
+				2A41254D212342F600A2E0C4 /* MyTableViewCell.h */,
+				2A41254E212342F600A2E0C4 /* MyTableViewCell.m */,
 				2A41253D21233AB300A2E0C4 /* Main.storyboard */,
 				2A41254021233AB400A2E0C4 /* Assets.xcassets */,
 				2A41254221233AB400A2E0C4 /* LaunchScreen.storyboard */,
@@ -141,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A41253C21233AB300A2E0C4 /* ViewController.m in Sources */,
+				2A41253C21233AB300A2E0C4 /* DynamicTableDemoViewController.m in Sources */,
+				2A41254F212342F600A2E0C4 /* MyTableViewCell.m in Sources */,
 				2A41254721233AB400A2E0C4 /* main.m in Sources */,
 				2A41253921233AB300A2E0C4 /* AppDelegate.m in Sources */,
 			);
